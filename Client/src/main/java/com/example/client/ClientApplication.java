@@ -1,13 +1,13 @@
-package com.example.streamdemo;
+package com.example.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StreamDemoApplication {
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StreamDemoApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
 }
